@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="it">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volontariato - Home</title>
-    <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="favicon.png">
 <style>
 body {
@@ -44,7 +40,6 @@ header nav ul li a:hover {
     color: #ff6666; /* Rosso chiaro */
 }
 
-/* Hero Section */
 .hero {
     background-color: #0066cc; /* Blu acceso */
     color: white;
@@ -61,7 +56,6 @@ header nav ul li a:hover {
     font-size: 1.2em;
 }
 
-/* Intro Section */
 .intro {
     background-color: #ffcccc; /* Rosso chiaro */
     text-align: center;
@@ -91,60 +85,6 @@ header nav ul li a:hover {
     background-color: #990000; /* Rosso ancora più scuro */
 }
 
-/* Cards Section */
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2em;
-    padding: 2em;
-}
-
-.card {
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    width: 300px;
-    text-align: center;
-}
-
-.card img {
-    width: 100%;
-    height: auto;
-}
-
-.card h3 {
-    background-color: #003366; /* Blu scuro */
-    color: white;
-    margin: 0;
-    padding: 1em 0.5em;
-}
-
-.card p {
-    padding: 1em;
-    font-size: 0.9em;
-    color: #666;
-}
-
-.card .btn {
-    display: inline-block;
-    margin: 1em 0;
-    background-color: #0066cc; /* Blu acceso */
-    color: white;
-    padding: 0.7em 1.5em;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-
-.card .btn:hover {
-    background-color: #004999; /* Blu più scuro */
-}
-
-/* Footer */
 footer {
     background-color: #003366; /* Blu scuro */
     color: white;
@@ -174,14 +114,6 @@ footer ul li a {
 footer ul li a:hover {
     color: white;
 }
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .cards {
-        flex-direction: column;
-        align-items: center;
-    }
-}
 </style>
 </head>
 <body>
@@ -189,7 +121,7 @@ footer ul li a:hover {
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="cos_e_volontariato.html">Cos'è il volontariato?</a></li>
+                <li><a href="cose_volontariato.html">Cos'è il volontariato?</a></li>
                 <li><a href="perche_importante.html">Perché è importante?</a></li>
                 <li><a href="come_iniziare.html">Come iniziare</a></li>
                 <li><a href="tipi_ambiti.html">Tipi e ambiti</a></li>
@@ -210,29 +142,6 @@ footer ul li a:hover {
             <h2>Perché scegliere il volontariato?</h2>
             <p>Il volontariato è un'esperienza che arricchisce sia chi dona che chi riceve. Scopri come iniziare.</p>
             <a href="perche_importante.html" class="btn">Leggi di più</a>
-        </section>
-
-        <section class="cards">
-            <article class="card">
-                <img src="images/volontariato1.jpg" alt="Persone che collaborano">
-                <h3>Cos'è il volontariato?</h3>
-                <p>Impara cosa significa essere volontari e come il volontariato contribuisce alla società.</p>
-                <a href="cos_e_volontariato.html" class="btn">Scopri di più</a>
-            </article>
-
-            <article class="card">
-                <img src="images/volontariato2.jpg" alt="Aiuto alla comunità">
-                <h3>Come iniziare</h3>
-                <p>Non sai da dove cominciare? Ti guideremo passo dopo passo.</p>
-                <a href="come_iniziare.html" class="btn">Inizia ora</a>
-            </article>
-
-            <article class="card">
-                <img src="images/volontariato3.jpg" alt="Tipi di volontariato">
-                <h3>Tipi di volontariato</h3>
-                <p>Esplora i vari ambiti del volontariato e trova quello più adatto a te.</p>
-                <a href="tipi_ambiti.html" class="btn">Approfondisci</a>
-            </article>
         </section>
     </main>
 
